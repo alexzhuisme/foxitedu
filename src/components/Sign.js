@@ -2,7 +2,7 @@ import sign from "../img/Sign.png"
 
 export default function Sign() {
     return (
-        <div className="bg-orange-cardLight h-screen grid grid-cols-2">
+        <div className="bg-orange-cardLight h-screen grid grid-auto">
             <div className="h-full flex flex-col justify-center items-center">
                 <div className="text-4xl">
                     Fill and Sign

@@ -34,6 +34,7 @@ module.exports = {
         '18': '4.5rem',
         '50': '12.5rem',
         '70': '17.5rem',
+        '88': '22rem',
         '108': '30rem',
         '120': '33rem',
         '128':'34rem',
@@ -50,8 +51,10 @@ module.exports = {
         'auto': 'auto',
         'cover': 'cover',
         'contain': 'contain',
+        '30%': '30%',
         '50%': '50%',
         '60%': '60%',
+        '70%': '70%',
         '16': '4rem',
       },
       backgroundPosition: {
