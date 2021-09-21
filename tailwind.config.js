@@ -27,6 +27,27 @@ module.exports = {
       },
       height: {
       },
+      animation: {
+        wave: "animate1 2s linear infinite"
+      },
+      keyframes: {
+        animate1: {
+          "0%": {
+              transform: "translateX(0)"
+          },
+          to: {
+              transform: "translateX(1000px)"
+          }
+        },
+        animate2: {
+          '0%': { "background-position-x": "0" },
+          '100%': { "background-position-x": "-1000px" },
+        }
+       },
+      transitionDelay: {
+        '0': '0ms',
+        '2000': '2000ms',
+      },
       fontFamily: {
         'open-sans': ['Open Sans', 'Arial', 'sans-serif']
       },
@@ -46,8 +67,11 @@ module.exports = {
       backgroundImage: theme => ({
         'welcome-pattern': "url('./img/welcome-bg.png')",
         'footer': "url('./img/footer.png')",
-       }),
-       backgroundSize: {
+        'waveGray':"url('./img/waveGray.svg')",
+        'wavePurple':"url('./img/wavePurple.svg')",
+        'wave':"url('./img/wave.svg')"
+      }),
+      backgroundSize: {
         'auto': 'auto',
         'cover': 'cover',
         'contain': 'contain',
@@ -56,10 +80,12 @@ module.exports = {
         '60%': '60%',
         '70%': '70%',
         '16': '4rem',
+        'full': 'auto 100%',
       },
       backgroundPosition: {
         'right-4': 'right 1.5rem center',
         'right-2': 'right 1rem center',
+        'bottom-4': 'bottom 100rem',
       },
       fill: theme => ({
         'red': theme('colors.red.500'),
