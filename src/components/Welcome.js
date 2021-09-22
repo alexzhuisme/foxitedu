@@ -12,7 +12,7 @@ export default function Welcome(){
                     <p className="text-3xl md:text-6xl font-semibold">Foxit PDF Editor Mobile</p>
                     <p className="text-xl md:text-3xl font-semibold md:mt-10">Read and take notes on the go.</p>
                     <button className='bg-red-500 w-60 h-16 rounded-lg mx-auto mt-10 md:ml-0 md:mt-10'>
-                        <a href={ isIOS ? 'https://www.google.com':'https://www.bing.com'} target="_blank" rel="noreferrer" className="text-white">
+                        <a href={ isIOS ? 'https://apps.apple.com/us/app/foxit-pdf-editor/id507040546':'https://play.google.com/store/apps/details?id=com.foxit.mobile.pdf.lite&hl=en_US&gl=US'} target="_blank" rel="noreferrer" className="text-white">
                             Download now - it's free!
                         </a>
                     </button>
