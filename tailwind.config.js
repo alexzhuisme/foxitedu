@@ -61,6 +61,10 @@ module.exports = {
         '128':'34rem',
         '132': '36rem',
         '560px': '35rem',
+        '720px': '45rem',
+        '800px': '50rem',
+        '880px': '55rem',
+        '960px': '60rem',
         '1040px': '65rem',
         '1440px': '90rem'
       },

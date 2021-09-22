@@ -2,17 +2,17 @@ import scan from "../img/scan.png"
 
 export default function Scan(){
     return (
-        <div className="h-auto lg:h-screen bg-purple-base grid grid-auto">
-            <div className="h-full w-auto flex flex-col justify-center items-center">
-                <div className="text-3xl lg:text-4xl mt-5 w-full flex justify-center items-center">
+        <div className="h-auto md:h-108 lg:h-720px bg-purple-base grid grid-auto md:grid-cols-2 gap-18">
+            <div className="order-1 h-full w-auto flex flex-col justify-center items-center md:items-end">
+                <div className="text-3xl w-70 lg:w-96 md:text-4xl lg:text-5xl mt-5">
                     Scan and Organize
                 </div>
-                <div className="flex justify-center items-center w-72 mt-5">
+                <div className="w-70 lg:w-96 mt-5 text-lg">
                     Tired of heavy backpacks? Scan your learning materials, take them with you as PDF files, and submit assignments online easily.
                 </div>
             </div>
-            <div className="h-full w-full flex justify-center items-center">
-                <img src={scan} alt="" className="w-72  my-5"/>
+            <div className="order-2 flex w-full justify-center md:justify-start items-center">
+                <img src={scan} alt="" className="w-72 lg:w-560px my-5"/>
             </div>
         </div>
     )
