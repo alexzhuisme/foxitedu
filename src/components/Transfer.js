@@ -7,8 +7,8 @@ import dropbox from '../img/dropbox.svg';
 export default function Transfer () {
     return (
         <div className="bg-wave bg-cover bg-no-repeat bg-bottom w-full h-108 md:h-108 lg:h-720px overflow-hidden grid grid-auto md:grid-cols-2 md:gap-10 lg:gap-18">
-            <div className="md:order-2 flex flex-col h-full lg:h-128 w-96 md:w-full md:text-left justify-around items-center md:items-start grid-cols-2">
-                <div className="flex flex-col justify-center items-start">
+            <div className="md:order-2 flex flex-col h-full lg:h-128 w-full md:w-full md:text-left justify-around items-center md:items-start grid-cols-2">
+                <div className="flex flex-col justify-center items-center md:items-start">
                     <div className="text-3xl md:text-4xl text-center md:text-left lg:text-5xl w-88 lg:w-full mx-auto mt-5">
                         Seamless File Transfer
                     </div>
